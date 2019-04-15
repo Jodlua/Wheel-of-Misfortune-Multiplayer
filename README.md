@@ -6,9 +6,7 @@ word chosen by the computer in dictionary.txt. The difference is that the strate
 
 Players can connect to a server and take turns playing the game. To showcase this, you may run this on multiple terminals in the following order:
 
-1. Git clone the repo in a directory of your choice. Then, direct the main terminal to the directory you are using to play this game.
-
-1B. In the file wordsrv.c and Makefile, you may change the PORT on both to a number between 50000-59999, but both must be the same number. Additionally, you may see the hostname of the main terminal by typing and entering "hostname -f". The output may come in handy for part 4.
+1. Git clone the repo in a directory of your choice. Then, direct the main terminal to the directory you are using to play this game. In the file wordsrv.c and Makefile, you may change the PORT on both to a number between 50000-59999, but both must be the same number. Additionally, you may see the hostname of the main terminal by typing and entering "hostname -f". The output may come in handy for part 4.
 
 2. Open n additional terminals, where n is the number of players. 
 
